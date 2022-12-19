@@ -1,0 +1,126 @@
+*{
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+}
+.body{
+   width: 80%;
+   background-image: url(img/pink_rice.png);
+}
+.nav{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/moroccan-flower1.png);
+    
+    overflow: hidden;
+}
+li{
+float: left;
+border-right: 1px solid rgb(70, 156, 243);
+background-color: rgb(92, 92, 99);
+list-style-type: none;
+margin-left: 10px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16xp;
+    text-decoration: none;
+}
+li a:hover{
+    /* background-color: rgb(154, 245, 93); */
+    color: rgb(0, 98, 255);
+}
+
+li:granica {
+    border-left: 1px solid rgb(70, 156, 243);
+    
+}
+.row{
+    display: flex;
+    background-image:linear-gradient(to top, rgba(255,0,0,0.3), rgba(255,0,0,0.3)),
+     url(img/moroccan-flower1.png);   
+}
+
+.left{
+    width: 50%;
+    padding-top: 50px;
+    
+}
+.right{
+    width: 70%;
+}
+@media screen and (max-widht:600px){
+    .column {
+        width: 100%;
+    }
+}
+.active1{
+    color: rgb(255, 255, 0);
+font-size: 18px;
+padding: 14px;
+text-shadow: 0px 1px 30px rgba(145, 30, 30, 1);
+background: rgb(184, 69, 221);
+background: -moz-linear-gradient(192deg, rgb(184, 69, 221) 50%, rgb(250, 0, 161) 71%);
+background: -webkit-linear-gradient(192deg, rgb(184, 69, 221) 50%, rgb(250, 0, 161) 71%);
+background: -o-linear-gradient(192deg, rgb(184, 69, 221) 50%, rgb(250, 0, 161) 71%);
+background: -ms-linear-gradient(192deg, rgb(184, 69, 221) 50%, rgb(250, 0, 161) 71%);
+background: linear-gradient(102deg, rgb(184, 69, 221) 50%, rgb(250, 0, 161) 71%);
+-webkit-box-shadow: 0px -2px 9px rgba(0, 50, 50, 0.75);
+-moz-box-shadow:    0px -2px 9px rgba(0, 50, 50, 0.75);
+box-shadow:         0px -2px 9px rgba(0, 50, 50, 0.75);
+
+}
+.granica{
+    color: rgb(0, 115, 255);
+    font-size: 18px;
+    padding: 14px;
+    text-shadow: 0px 1px 30px rgba(60, 0, 255, 1);
+    background: rgb(218, 170, 221);
+    background: -moz-linear-gradient(1deg, rgb(218, 170, 221) 50%, rgb(250, 0, 161) 71%);
+    background: -webkit-linear-gradient(1deg, rgb(218, 170, 221) 50%, rgb(250, 0, 161) 71%);
+    background: -o-linear-gradient(1deg, rgb(218, 170, 221) 50%, rgb(250, 0, 161) 71%);
+    background: -ms-linear-gradient(1deg, rgb(218, 170, 221) 50%, rgb(250, 0, 161) 71%);
+    background: linear-gradient(271deg, rgb(218, 170, 221) 50%, rgb(250, 0, 161) 71%);
+    -webkit-box-shadow: 0px -2px 9px rgba(0, 50, 50, 0.75);
+    -moz-box-shadow:    0px -2px 9px rgba(0, 50, 50, 0.75);
+    box-shadow:         0px -2px 9px rgba(0, 50, 50, 0.75);
+}
+.exemple{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    .gallery-box{
+        flex-direction: column;
+    }
+}
+.gallery-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 180px;
+}
+div.gallery:hover{
+    border: 1px solid #ccc;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding:15px;
+    text-align: center;
+}
